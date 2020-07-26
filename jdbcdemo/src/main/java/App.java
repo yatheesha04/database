@@ -26,7 +26,7 @@ public class App {
 		      Class.forName("org.hsqldb.jdbcDriver");
 
 		   
-		    
+		    //use any of this
 		      conn=  DriverManager.getConnection("jdbc:hsqldb:file:///c:/hsqldb/mydb", "SA", "");
 		     // conn = DriverManager.getConnection("jdbc:hsqldb:file:database.dat;shutdown=true", "sa", "");
 		      //STEP 4: Execute a query
